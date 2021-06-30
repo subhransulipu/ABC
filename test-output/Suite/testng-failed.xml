@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.jda.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="logInButtonTest"/>
+        </methods>
+      </class> <!-- com.jda.qa.testcases.LoginPageTest -->
+      <class name="com.jda.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="verifyusernametest"/>
+        </methods>
+      </class> <!-- com.jda.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
